@@ -1,21 +1,37 @@
-# famous_people
+# Famous People
 An api of famous people whose objective is that developers can use it locally and test their front-end applications. This is the version without BD and only the GET method can be used.
-## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+## Getting Starting 🚀
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+_These instructions allow you to obtain a copy of the project in operation on your local machine for development and testing parameters._
 
 
-### Pre-requisitos 📋
+### Pre requirements 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+The first thing you should do is install nodejs, the following link will tell you how to do it: https://nodejs.org/en/download/
 
+Then you must verify which version has been installed.
 ```
-Da un ejemplo
+node -v
 ```
+The next thing we are going to do is verify the version of the NPM package manager installed, for this using the open console we execute the following command:
+```
+npm -v
+```
+#### Execute a javascript file in the node server
+Finally we will create a JavaScript file to run and test the installation of Node.js.
+For this we create a file called test.js and to which we will add _the following code:_
+```
+console.log('Node is installed correctly!');
+```
+Then we position ourselves within the location where we created the test.js file and execute the following command from the console:
+```
+node test.js
+```
+If everything went well it will show us the message “Node is installed correctly!”.
 
-### Instalación 🔧
+
+### Installation 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
