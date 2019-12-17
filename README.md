@@ -31,14 +31,17 @@ node test.js
 If everything went well it will show us the message “Node is installed correctly!”.
 
 
-### Installation 🔧
+## Installation 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
+#### You must clone the project:
 ```
-Da un ejemplo
+git clone ...
+```
+Within the project you must execute the following commands:
+-1 The first command will create a folder called node_modules (all the modules we are going to use are stored) and we will install express and morgan.
+_You can read more about express in the following link: https://expressjs.com/guide/routing.html _
+```
+npm i express morgan --save
 ```
 
 _Y repite_
