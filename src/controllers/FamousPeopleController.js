@@ -91,7 +91,6 @@ const controller = {
 		
 		let famousPeopleByName = FP.filter(f => f.first_name.includes(name) === true || f.last_name.includes(name) === true);
 		
-		console.log(famousPeopleByName);
 		if(famousPeopleByName === undefined || famousPeopleByName.length === 0){
 			return  responseJson(res, 404, 'This name not exists');
 		}
@@ -100,7 +99,6 @@ const controller = {
 	getImage: (req, res) => {
 		let image = req.params.image;
 		let pathFile = './src/upload/Famous_People/' + image;
-		console.log(pathFile);
 		
 		fs.exists(pathFile, (exists) => {
             if(!exists){
