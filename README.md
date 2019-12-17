@@ -37,20 +37,24 @@ If everything went well it will show us the message “Node is installed correct
 ```
 git clone ...
 ```
-Within the project you must execute the following commands:
--1 The first command will create a folder called node_modules (all the modules we are going to use are stored) and we will install express and morgan.
-_You can read more about express in the following link: https://expressjs.com/guide/routing.html _
+#### _Within the project you must execute the following commands:_
+
+**-1** The first command will create a folder called node_modules (all the modules we are going to use are stored) and we will install express and morgan.
+_You can read more about express in the following link: https://expressjs.com/guide/routing.html_
 ```
 npm i express morgan --save
 ```
-
-_Y repite_
-
+**-2** Then you must install nodemon (this module restarts the server for us and the changes will be shown without the need to close and open the server)
 ```
-hasta finalizar
+npm i nodemon -D
 ```
+**-3** To prove that the server works correctly, we will execute the following command in the console:
+```
+npm run dev
+```
+You should display the following message on the console: *"server on port 3000"*
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+#### Congratulations, you already have the api running on your machine!
 
 ## Ejecutando las pruebas ⚙️
 
