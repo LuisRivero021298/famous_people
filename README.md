@@ -56,66 +56,42 @@ You should display the following message on the console: *"server on port 3000"*
 
 #### Congratulations, you already have the api running on your machine!
 
-## Ejecutando las pruebas ⚙️
+## Routes ⌨️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
+Place the following route in the browser to get all the famous people
 ```
-Da un ejemplo
+localhost:3000/api/famous_people
 ```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
+#### route variations
+**last**
+_Place the limit number of famous people you want to get:_
 ```
-Da un ejemplo
+localhost:3000/api/famous_people/10
 ```
+**By sex**
+Options: male | female
+```
+localhost:3000/api/famous_people/sex/female
+```
+**By profession** 
+Options: actors | athletes | singers | scientists | businessmen
+```
+localhost:3000/api/famous_people/profession/actors
+```
+**By name**
+_Famous person finder by name, place the name (in upper and lower case) or any letter containing the name and return all that match._
+```
+localhost:3000/api/famous_people/name/C
+```
+_returns all famous people in their names that contain uppercase C._
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
+## Built with 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Express](https://expressjs.com/es/) - The framework used
+* [npm](https://www.npmjs.com) - Dependency Manager
 
-## Contribuyendo 🖇️
+## Author ✒️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* **Luis Rivero** - [LuisRivero021298](https://github.com/LuisRivero021298)
