@@ -35,7 +35,7 @@ If everything went well it will show us the message “Node is installed correct
 
 #### You must clone the project:
 ```
-git clone ...
+git clone https://github.com/LuisRivero021298/famous_people.git
 ```
 #### _Within the project you must execute the following commands:_
 
