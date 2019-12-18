@@ -87,8 +87,6 @@ _returns all famous people in their names that contain uppercase C._
 
 ## Built with 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 * [Express](https://expressjs.com/es/) - The framework used
 * [npm](https://www.npmjs.com) - Dependency Manager
 
